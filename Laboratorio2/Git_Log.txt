@@ -1,0 +1,19 @@
+gabriel@gabriel-VirtualBox:~/New_Repositorio$ git log
+commit f38275c80e8532a28e297d496ac3c18c15c86a26 (HEAD -> rama2)
+Author: Gabriel <183055@unsaac.edu.pe>
+Date:   Tue Sep 3 17:06:53 2024 -0500
+
+    Nuevo archivo2
+
+commit a85917242bf03fd0e36ea1783d454ba9a52ba219 (rama1)
+Author: Gabriel <183055@unsaac.edu.pe>
+Date:   Tue Sep 3 16:57:04 2024 -0500
+
+    Mejora de Hola Mundo
+
+commit 9ddcb60d2742ee1b630802524060d09e44138e75 (master)
+Author: Gabriel <183055@unsaac.edu.pe>
+Date:   Tue Sep 3 16:37:01 2024 -0500
+
+    Archivo de Hola Mundo
+
