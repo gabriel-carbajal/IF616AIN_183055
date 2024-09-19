@@ -1,0 +1,20 @@
+stages:
+  - test
+  - versioning
+  - deploy
+
+test:
+  script:
+    - python -m unittest discover  # Ejecuta pruebas
+    
+versioning:
+  script:
+    - python versioning_script.py  # Ejecuta el script de versionamiento
+  only:
+    - main  # Solo se ejecuta en la rama main
+
+deploy:
+  script:
+    - echo "Desplegando la nueva versión..."
+  only:
+    - tags  # Despliega solo cuando se crea una nueva etiqueta
